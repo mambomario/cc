@@ -1,0 +1,324 @@
+/*   VARIABLES    */
+$dblue : #111F50;
+$lblue: #F9FBFF;
+$mblue: #F2F6FE;
+$sblue: #171DD5; /*$dblue: #171DD5;*/
+$white: #ffffff;
+$black: #111F50;
+$lgreen: #2BF260;
+
+ 
+
+    #content-wrap {
+        margin-top: 80px;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    #ctl00_MainContent_Proveruj1_sectionProveruj {
+        position: relative;
+        #ctl00_MainContent_Proveruj1_divVideoWrapperCZ {
+            border: none;
+        }
+
+        h1 {
+            text-align: center;
+            color: $black;
+            font: normal normal bold 32px/32px Lexend Deca;
+            letter-spacing: 0.45px;
+            ::first-word {
+               border-bottom: 8px solid $lgreen; 
+            }
+        }
+        h2 {
+            display: none;
+        }
+        .col-sm-6 div {
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #D9DFF8;
+            border-radius: 6px;    
+            padding: 6px;
+
+        }
+        input#ctl00_MainContent_Proveruj1_nazev {
+            width: 60% !important;
+            background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+            display: inline-block;
+            border: none;
+        }
+
+        input#ctl00_MainContent_Proveruj1_btnHomepageProverit{
+            margin-top: 5px;
+            float: right;
+            background: transparent linear-gradient(180deg, #1657F8 0%, #1657F8 100%) 0% 0% no-repeat padding-box;
+            box-shadow: inset 0px -4px 4px #111F5033, 2px 4px 16px #1655F766;
+            border-radius: 6px;
+            max-width: 105px;
+        }
+
+
+    }
+
+    #sectionZpusobyPouziti {
+        h2 {
+            font: normal normal bold 20px/24px Lexend Deca;
+            letter-spacing: 0.28px;
+        }
+
+        h3 {
+            padding-top: 20px;
+            font: normal normal bold 16px/8px Lexend Deca;
+            letter-spacing: 0.22px;
+            text-align: left;
+        }
+
+        .col-xs-12.col-sm-12.col-md-4 .cont {
+            padding: 24px;
+            box-shadow: 0px 8px 24px #163CD10D;
+            border: 1px solid #D9DFF8;
+            border-radius: 8px;
+            margin: 40px auto 24px auto;
+
+            .icon {
+                width: 64px;
+                height: 64px;
+                background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                box-shadow: 0px 8px 24px #163CD10D;
+                border-radius: 100px;
+                position: absolute;
+                top: 0px;
+                left: 24px;
+            }
+
+            img {
+               width: 35px;
+               padding: 0;
+               margin: 0;
+               position: relative;
+               top: 15px;
+
+            }
+
+            p.zpusobPouzitiText {
+                margin: 0;
+                padding: 0;
+
+                text-align: left;
+                font: normal normal normal 14px/16px Lexend Deca;
+                letter-spacing: 0.2px;
+            }
+
+            p.viceInformaci {
+                position: absolute;
+                bottom: 5px;
+                right: 50px;
+                
+
+                a {
+                    background: $lblue;
+                    padding: 15px;
+                    font: normal normal 600 14px/8px Lexend Deca;
+                    letter-spacing: 0.2px;
+                    color: $sblue;
+                    background: url("../../assets/images/arrow_right.png") no-repeat $white;
+                    background-position: 100% 50%; 
+                }
+
+
+            }
+        }
+        .col-md-4:hover {
+            border-color: $sblue;
+        }
+
+    }
+    #sectionReference {
+        overflow: hidden;
+
+
+    }
+
+    #ctl00_MainContent_DuverujBook1_sectionDuverujAleProveruj {
+        background: $white !important;
+        .container {
+            background: $mblue !important;
+            border-radius: 6px;
+        }
+
+        input#ctl00_MainContent_Proveruj1_btnHomepageProverit {
+            background: transparent linear-gradient(180deg, #1657F8 0%, #1657F8 100%) 0% 0% no-repeat padding-box;
+            box-shadow: inset 0px -4px 4px #111F5033, 2px 4px 16px #1655F766;
+            border-radius: 6px;
+        }
+
+        #ctl00_MainContent_DuverujBook1_CtrlBtnGetEbook {
+                    background: transparent linear-gradient(180deg, #1657F8 0%, #1657F8 100%) 0% 0% no-repeat padding-box;
+                    box-shadow: inset 0px -4px 4px #111F5033, 2px 4px 16px #1655F766;
+                    border-radius: 6px;
+                    margin-bottom: 100px;;
+        }
+        #ctl00_MainContent_DuverujBook1_ctrl_DuverujAleProverujNadpis {
+            text-align: center;
+            font: normal normal bold 16px/24px Lexend Deca;
+            letter-spacing: 0.22px;
+        }
+        #ctl00_MainContent_DuverujBook1_ctrl_DuverujAleProverujPodNadpis {
+            display: none;
+        }
+
+        .form-group {
+            text-align: center;
+            margin-top: 40px;
+        }
+    }
+
+
+    /* REFERENCE */
+    #CtrlReferencePanel {
+        width: auto;
+        bottom: $white;
+    }
+    .footerDevider {
+        border-bottom: 1px solid #333F6A;
+    }
+    footer {
+        background: $dblue url('../../assets/images/logo_footer_bg.png') no-repeat 180% 110%;
+        .container {
+            background: transparent;
+        }
+
+        p.fontWeightNormal.whiteText {
+            margin: 40px auto;
+            text-align: center;
+        }
+    }
+
+    #sectionZpusobyProverovani {
+        .footerHeaderRow {
+            display: none;
+        }
+
+        img {
+            display: block;
+            margin: 40px auto !important;
+            float: none !important;
+            /*padding: 40px 0;*/
+            height: 16px !important;
+
+
+        }
+
+        #ctl00_Footer1_ctrlFooterMailTo, #ctl00_Footer1_ctrlFooterTel {
+            display: block;
+            text-align: center;
+            font: normal normal medium 16px/24px Lexend Deca;
+            letter-spacing: 0.22px;
+            color: $lgreen;
+            background-position: 0 0  ;
+            padding: auto 20px;
+            width: auto;
+            margin: 0 auto;
+
+        }
+         #ctl00_Footer1_ctrlFooterMailTo, #ctl00_Footer1_ctrlFooterTel {
+            img {
+                margin: 0 !important;
+                display: inline;
+                padding-right: 5px;
+            }
+         }
+
+        
+    }
+.greenUnderline {
+    background: url('../images/greenline.png') -0px 27px transparent;
+    background-repeat: repeat-x;
+}
+#sectionReference {
+    text-align: center;
+    margin: 40px auto;
+
+    h2 {
+        max-width: 400px;
+        text-align: center;
+        margin: 40px auto;
+
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+#aboutUs {
+    text-align: center;
+    font: normal normal 600 14px/24px Lexend Deca;
+    letter-spacing: 0.2px;
+    color: $dblue;
+    padding-bottom: 40px;
+
+    button.ref {
+        border: 1px solid #DAE1FF;
+        border-radius: 6px;
+        color: $sblue;
+        background: $lblue;
+        padding: 5px 20px ;
+        margin: 40px auto;
+    }
+
+    .container {
+        max-width: 500px;
+    }
+
+    .xsbr{
+        border-right: 1px solid #DAE1FF;
+    } 
+
+    .xsbb {
+        border-bottom: 1px solid #DAE1FF;
+    }
+
+    .col {
+        border: 1px solid #f9fbff;
+        padding: 50px 0 30px 0;
+        min-heigh: 210px;  
+        .cont {
+            padding: auto 20px;
+        }
+
+        .sq, .lsq {
+            position: absolute;
+            bottom: -30px;
+            right: -30px;
+            width: 60px;
+            height: 60px;
+            background: $lblue;
+            z-index: 100;
+        }
+        &.xsbr {
+                border-right: 1px solid #DAE1FF;
+            } 
+
+        &.xsbb {
+                border-bottom: 1px solid #DAE1FF;
+            }
+
+    }
+
+    h2 {
+        padding: 40px 0;
+    }
+    h3 {
+        font: normal normal 800 32px/24px Lexend Deca;
+        letter-spacing: 0.45px;
+        color: $dblue;
+        padding: 5px;
+        background: #DAE1FF40;
+        display: inline;
+        max-width: 5px auto;
+    }
+    p {
+        padding: 15px 0;
+    }
+}
+
+

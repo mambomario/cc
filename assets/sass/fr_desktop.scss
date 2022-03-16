@@ -1,0 +1,24 @@
+/*   VARIABLES    */
+$dblue : #111F50;
+$lblue: #F9FBFF;
+$mblue: #F2F6FE;
+$sblue: #171DD5; /*$dblue: #171DD5;*/
+$white: #ffffff;
+$black: #111F50;
+$lgreen: #2BF260;
+
+
+@media (min-width: 481px) {
+  body#fullReportRedesign section, body#fullReportRedesign .container,
+  #body-wrap {
+    min-width: 1400px;
+    width: 1400px;
+    overflow: display;
+    margin: 0 auto;
+  } 
+
+  #StickyHeader {
+  	width: 100%;
+  	margin: 0 auto;
+  }
+}

@@ -1,0 +1,669 @@
+﻿.GreenTextHighlight
+{
+    /*     color: #319444;     */
+    color: #00ad1e;
+}
+
+.iframeError
+{
+    display: none;
+    margin-top: 50px;
+    font-size: 20px;
+    color: red;
+}
+
+.iframeWrapper
+{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.iframeWrapperSmall {
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+.iframeWrapperSmallWithoutHeight {
+    display: block;
+    width: 100%;
+}
+
+.holds-the-iframe {
+    background: url(/Images/icons/ajax-loader.gif) center center no-repeat;
+}
+
+.tbcExtraDataClass
+{
+    font-size: 14px;
+}
+
+.NemovitostCauseCheck
+{
+}
+
+.NemovitostCauseCheck td
+{
+    background-color: #ffaaaa !important;
+}
+
+.CauseCheckTableRow
+{
+}
+
+.CauseCheckTableRow td
+{
+    background-color: #ffaaaa !important;
+}
+
+.spanLinkImage
+{
+    cursor: pointer;
+    color: #357ebd;
+}
+
+.largeText
+{
+    font-size: large;
+}
+
+.grayedText
+{
+    color: #aaaaaa;
+}
+
+.boldText
+{
+    font-weight: 500;
+}
+
+.semaforWarning
+{
+    color: #eea236;
+    font-size: x-large;
+}
+
+.semaforOk
+{
+    color: #00ad1e;
+    font-size: x-large;
+}
+
+.semaforBad
+{
+    color: red;
+    font-size: x-large;
+}
+
+.kreditniLimit
+{
+    color: #428bca;
+    font-size: x-large;
+}
+
+.reportHeaderIcon
+{
+    width: 20px;
+    height: auto;
+}
+
+.iconMarginRight
+{
+    margin-right: 10px;
+}
+
+.iconMarginRight5PX
+{
+    margin-right: 5px;
+}
+
+.verticalMiddle
+{
+    vertical-align: middle;
+}
+
+.semaforOk, .semaforBad, .semaforGood
+{
+    margin-top: 2px;
+}
+
+
+/* ================================================================*/
+/* Tab control */
+/* ================================================================*/
+.cclist
+{
+}
+.cclist .ajax__tab_body
+{
+}
+.cclist .ajax__tab_header
+{
+    text-align: left;
+}
+/* Inside tab header */
+.cclist .ajax__tab_tab
+{
+    text-align: center;
+    border: none;
+    padding: 0px;
+    font-size: 1.1em;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 500; /*color: #6daadc;*/
+    color: #428bca;
+    vertical-align: middle;
+}
+
+.cclist .ajax__tab_hover .ajax__tab_tab
+{
+    border: 1px solid transparent;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #ddd;
+    border-color: #ddd;
+    cursor: pointer;
+}
+
+/* Inside tab header backgound*/
+.cclist .ajax__tab_active .ajax__tab_tab
+{
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.cclist .ajax__tab_header .ajax__tab_tab
+{
+    /* left/right rounded images are 11 pixels wide */
+    margin: 0px 12px 0px 12px;
+}
+.cclist .ajax__tab_header .ajax__tab_outer
+{
+    /* 2 pixel horizontal space between tabs */
+    margin-right: 2px;
+}
+.cclist .ajax__tab_header .ajax__tab_inner
+{
+}
+
+.cclist .ajax__tab_header .ajax__tab_disabled .ajax__tab_tab {
+    color: #777777;
+    text-decoration: line-through;
+}
+
+.lblData
+{
+    font-weight: 500;
+}
+
+.lblDataDiv
+{
+    margin-bottom: 15px;
+}
+
+.UkazateleTable
+{
+}
+
+.UkazateleTable th
+{
+    font-weight: normal;
+}
+
+.UkazateleTable .head
+{
+    font-weight: bold;
+}
+
+.UkazateleTable .head th
+{
+    font-weight: bold;
+}
+
+.grafWraper
+{
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.lblDataTitle
+{
+    color: #cacaca;
+    display: block; /*font-size: large;*/
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.CollapsableSection
+{
+    text-align: left; /*font-size: medium;*/
+    margin: 40px 40px 40px 40px;
+}
+
+.sectionWraper
+{
+    margin: 20px 0px 20px 0px;
+    text-align: left;
+    border: 1px solid #cacaca; /*box-shadow: 2px 2px 2px 2px #888888;*/
+}
+
+.sectionHeader
+{
+    background-color: #eeeeee;
+    vertical-align: middle;
+    border-bottom: 1px solid #cacaca;
+    min-height: 46px;
+}
+
+.sectionHeaderLabel
+{
+    margin-left: 20px;
+    color: #357ebd;
+    font-size: large;
+}
+
+.sectionHeaderLabelOdsazeni
+{
+    padding-top: 10px;
+}
+
+.sectionPlus
+{
+    width: 25px;
+    height: auto;
+    margin: 10px 0px 10px 10px;
+    cursor: pointer;
+}
+
+.iconShow
+{
+    display: inline-block;
+}
+
+.iconHide
+{
+    display: none;
+}
+
+.sectionMinus
+{
+    width: 25px;
+    height: auto;
+    margin: 10px 0px 10px 10px;
+    cursor: pointer;
+}
+
+
+
+.sectionButton
+{
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #ccc; /*     background-image: linear-gradient(top, #eee, #ccc);     filter: progid:DXCtrlReportImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');     */
+    border: 1px solid #777;
+    padding: 0 1.5em;
+    margin: 0.5em;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+
+.sectionButton:hover
+{
+    background-color: #ddd;
+    background-image: linear-gradient(top, #fafafa, #ddd);
+}
+
+.sectionButton:active
+{
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+    position: relative;
+    top: 1px;
+}
+
+.sectionButton:focus
+{
+    outline: 0;
+    background: #fafafa;
+}
+
+.sectionButton:before
+{
+    background: #ccc;
+    background: rgba(0,0,0,.1);
+    float: left;
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;
+}
+
+/* Hexadecimal entities for the icons */
+
+.plus:before
+{
+    content: "\271A";
+}
+
+.hidebutton
+{
+    display: none;
+}
+
+
+
+/* Styly pro sekci ukazatele*/
+
+/* Financial closing sheet */
+
+
+
+.UkazateleTable tr td.neg
+{
+    color: red;
+}
+
+.UkazateleTable tr td.poz
+{
+    color: green;
+}
+
+.UkazateleTable tr td.nor
+{
+    background-color: #fff;
+}
+
+.UkazateleTable tr td.err
+{
+    color: #bbb;
+    font-style: italic;
+    background-color: #fff;
+}
+
+
+
+/* Styly pro záložku EXEKUCE CEE */
+
+
+.DctThpPage
+{
+    /*background-color: #FF9403;*/
+    background-color: #357ebd;
+    margin-right: 0px;
+    height: 20px;
+}
+
+.DctThpPage .Plus, .DctThpPage .Minus
+{
+    padding-top: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 9px;
+    float: left;
+}
+
+
+.DctThpPage .DctThpPageLabel
+{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 680px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    float: right;
+    margin-right: 20px;
+}
+
+
+.DctThpPage tr th
+{
+    background-color: #FFCB8C;
+    font-weight: bold;
+}
+
+.DctThpPage th.alternate
+{
+    border-top-style: dashed;
+    border-width: thin;
+    border-color: #C0C0C0;
+    font-style: italic !important;
+    font-size: 1em;
+}
+
+.DctThpPage .footer th
+{
+    background-color: Transparent;
+}
+
+.DctThpPage tr td, .DctThpPage tr th
+{
+    padding-left: 5px;
+    padding-right: 2px;
+    color: #000000;
+    height: 20px;
+    line-height: 20px;
+}
+
+.DctThpPage tr td
+{
+    font-size: 90%;
+}
+
+.DctThpPage tr.licha td
+{
+    background-color: #ECEEED;
+}
+
+.DctThpPage tr.suda td
+{
+    background-color: #FFFFFF;
+}
+
+
+/* Barva radku se zvyraznenymi daty*/
+.DctThpPage tr.lichaCorrupted td
+{
+    background-color: #ECEEED;
+    color: Red;
+}
+/* Barva radku se zvyraznenymi daty*/
+.DctThpPage tr.sudaCorrupted td
+{
+    background-color: #FFFFFF;
+    color: Red;
+}
+
+
+
+
+.CollapsableTableName
+{
+    /*background-color: #FF9403;*/
+    margin-right: 50px;
+    height: 20px;
+}
+
+.CollapsableTableName .Plus, .CollapsableTableName .Minus
+{
+    padding-top: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 9px;
+    float: left;
+}
+
+
+
+.CollapsableTableName .CollapsableTableNameLabel
+{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 760px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+/*
+Dále jsou definovány styly pro CEE tabulku
+*/
+/* START OF CEE TABLE STYLING */
+
+ .topHeaderRow
+        {
+            background-color: transparent;
+        }
+        
+        .topHeaderRow th
+        {
+            border-bottom: 1px solid black;
+            padding: 5px;
+        }
+        
+        .rowSuda
+        {
+            background-color: lightgray;
+        }
+        
+        .rowLicha
+        {
+            background-color: azure;
+        }
+        
+        .souhrn
+        {
+        }
+        
+        .souhrn td
+        {
+            padding: 5px;
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-top: 1px solid black;
+        }
+        
+        .clearRow
+        {
+            width: 100%;
+            height: 20px;
+        }
+        
+        
+        .detail-header
+        {
+            font-weight: bold;
+        }
+        
+         .topHeaderRow th
+        {
+            border-bottom: 1px solid black;
+            padding: 5px;
+        }
+        
+        .detail-header td
+        {
+            padding-top: 10px;
+            padding: 5px;
+            border-bottom: 1px solid black;
+        }
+        
+                 .detail-header th
+        {
+            border-bottom: 1px solid black;
+            padding: 5px;
+        }
+        
+        .detail-body
+        {
+        }
+        
+        .detail-body td
+        {
+            padding-top: 10px;
+            padding: 5px;
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        
+        .divWrapper
+        {
+            margin-bottom: 20px;
+            width: 1000px;
+        }
+
+        .divWrapper2 {
+            margin-bottom: 20px;
+        }
+        
+        .divWrapper h3
+        {
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .btnLink
+        {
+            float: right;
+            border: 0px none ;
+            padding: 5px;
+            margin-top: 5px;
+            margin-right: 5px;
+        }
+        
+         .btnLinkDis
+        {
+            float: right;
+            border: 0px none;
+            padding: 5px;
+            margin-top: 5px;
+            margin-right: 5px;
+              pointer-events: none;
+             opacity: 0.5;
+        }
+        
+
+        
+        .tblCee
+        {
+            width: 1000px;
+        }
+
+        .tblCee2 {
+            width: 100%;
+        }
+        
+        .timeLabel
+        {
+           float: right;
+            border: 0px none;
+            padding: 5px;
+            margin-top: 5px;
+            margin-right: 5px;
+        }
+        
+        
+        /* END OF CEE TABLE STYLING */

@@ -1,0 +1,1900 @@
+﻿
+/* Override for hyperlink. Do NOT print HREF content ! */
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+
+@media print {
+ .sectionReportFooter {
+     display: none;
+ }   
+ 
+ #sectionCCLActionsHeader {
+     display: block !important;
+     position: inherit !important;
+ }
+ 
+ 
+ .ArrowBackToTop {
+     display: none !important;
+ }
+ 
+ /*
+ .ReportHeader2SectionX5 {
+     border-bottom: none !important;
+ }
+*/
+
+.divSemaforyWrapper {
+    border-bottom: 1px solid lightgray !important;
+    margin-bottom: 20px !important;
+    padding-bottom: 20px !important;
+}
+ 
+ .divHeaderRightWrapper {
+     border-left: none !important;
+ }
+ 
+}
+
+#body-wrap, #header-wrap, #content-wrap, #footer-wrap {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.transparentLogo {
+    background-color: transparent;
+    width: 120px;
+    height: auto;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    margin: 0 40px 0 40px;
+}
+
+.OpenAllWaitingImg {
+    float: right;
+    margin-left: 30px;
+}
+
+.MonitoringPrehledBlockWrapper {
+    height: 370px;
+    width: 100%;
+    border: 1px solid #aaaaaa;
+    padding: 5px 25px 15px 25px;
+    margin-bottom: 20px;
+}
+
+
+.UkazkyRamecky {
+    background-color: #eee;
+    padding:10px 30px 10px 30px;
+    min-height: 100px;
+}
+
+.searchRowStyle {
+    border-bottom:solid 1px #aaa;
+}
+.searchItem {
+    margin: 30px 0 30px 0;
+}
+
+.searchNazev {
+    color: #428bca;
+    font-size: 26px;
+}
+
+.searchProveritBtn {
+    color: #428bca;
+    font-size: 20px;
+}
+
+.searchLabel {
+    font-size: 18px;
+    text-align: center;
+}
+
+.searchNotFoundLabel {
+    font-size: 24px;
+    text-align: center;
+}
+
+.reportHeaderText {
+    letter-spacing: 2px;
+}
+
+.reportHeaderValues {
+    margin: 0 0 20px 0;
+}
+
+.ProductTemplate2RightText {
+    margin: 10px 0 15px 20px;
+    font-size: 15px;
+}
+
+.ProductTemplate2RightRadios {
+    margin: 0 0 0 0;
+}
+
+.rightUvedeneCeny {
+    margin: 25px 0 30px 0;
+}
+
+.ProductTemplate2RightTextRadioBtnHeader {
+    font-size: large;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.ReferenceArrowLeft 
+{
+    float: left;
+    padding: 80px 0 0 25px;
+    border: none;
+    background-color: transparent;
+    font-size: xx-large;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.ReferenceArrowRight {
+    padding: 80px 85px 0 0;
+    float: right;
+    border: none;
+    background-color: transparent;
+    font-size: xx-large;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#header-wrap {
+    background: #444444;;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 998;
+}
+
+#header-wrap.affix-top {
+position: absolute;
+z-index: 998;
+}
+
+#header {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+
+
+.dropdown a 
+{
+    
+}
+
+.dropdown ul li 
+{
+    
+}
+
+.footerDelimiter {
+    margin: 0 5px 0 5px;
+    vertical-align: middle;
+}
+
+#CtrlReferencePanel {
+    background-color: #ffffff;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    border-radius: 5px;
+    width: 900px;
+    height: 300px;
+    float: right;
+    margin-top: 100px;
+}
+
+.proverBtn {
+    position: fixed;
+    right: 0%;
+    top: 370px;
+    width: 65px;
+    height: 75px;
+    background-color: #555555;
+    box-shadow: #333333 2px 2px 2px 2px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    z-index: 10;
+}
+
+.CCfull_sectionDataPrintLogo 
+{
+    display: none;
+}
+
+.CCfull_sectionDataPrintWrapper {
+    width: 90%; margin: 20px auto 200px auto;
+}
+
+@media print {
+    .proverBtn { display: none;}
+    
+    .CCfull_sectionDataPrintLogo * {
+        display: block;
+    }
+    
+    .CCfull_sectionDataPrintLogo {
+        margin-bottom: 50px;
+        display: block;
+    }
+    
+    .CCfull_sectionDataPrintWrapper {
+        width: 100%; 
+        margin: 0px;
+    }
+}
+
+
+
+.riskReportRightSideBtn {
+    position: fixed;
+    right: 0%;
+    top: 280px;
+    width: 65px;
+    height: 75px;
+    background-color: #555555;
+    box-shadow: #333333 2px 2px 2px 2px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    z-index: 10;
+}
+
+
+
+.RPMRightSideBtn {
+    position: fixed;
+    right: 0%;
+    top: 460px;
+    width: 65px;
+    height: 75px;
+    background-color: #555555;
+    box-shadow: #333333 2px 2px 2px 2px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    z-index: 10;
+}
+
+.MarkeetoRightSideBtn {
+    position: fixed;
+    right: 0%;
+    top: 550px;
+    width: 65px;
+    height: 75px;
+    background-color: #555555;
+    box-shadow: #333333 2px 2px 2px 2px;
+    padding: 15px 5px 5px 5px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    z-index: 10;
+}
+
+.BackToTopBtnHidden {
+    display: none;
+}
+
+.BackToTopBtn 
+{
+    display: block;
+    position: fixed;
+    right: 5%;
+    top: auto;
+    bottom: 0%;
+    left: auto;
+    width: 150px;
+    height: 30px;
+    background-color: #555555;
+    box-shadow: #333333 2px 2px 2px 2px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.BackToTopBtnAwesomeIcon 
+{
+    display: block;
+    position: fixed;
+    right: 5%;
+    top: auto;
+    bottom: 0%;
+    left: auto;
+    font-size: 40px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.ArrowBackToTopHidden {
+    display: none;
+}
+
+.ArrowBackToTop {
+    display: block;
+    position: fixed;
+    right: 5%;
+    top: auto;
+    bottom: 50px;
+    left: auto;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.DashboardWrapper {
+    margin: 50px 0px 0px 250px;
+    width: 80%;
+    min-height: 1200px;
+}
+
+
+@media (min-width: 750px) 
+{
+    .DashboardCenter {
+        width: 500px;
+    }    
+}
+@media (min-width: 850px) 
+{
+    .DashboardCenter {
+        width: 600px;
+    }    
+}
+@media (min-width: 900px) 
+{
+    .DashboardCenter {
+        width: 700px;
+    }    
+}
+@media (min-width: 1000px) 
+{
+    .DashboardCenter {
+        width: 750px;
+    }    
+}
+@media (min-width: 1200px) 
+{
+    .DashboardCenter {
+        width: 960px;
+    }    
+}
+@media (min-width: 1400px) 
+{
+    .DashboardCenter {
+        width: 1180px;
+        margin: 0px 0px 0px 5px;
+    }    
+}
+@media (min-width: 1600px) 
+{
+    .DashboardCenter {
+        width: 1320px;
+        margin: 0px 0px 0px 1%;
+    }    
+}
+@media (min-width: 1800px) 
+{
+    .DashboardCenter {
+        width: 1550px;
+        margin: 0px 0px 0px 5%;
+    }    
+}
+@media (min-width: 2000px) 
+{
+    .DashboardCenter {
+        width: 1840px;
+        margin: 0px 0px 0px 4%;
+    }    
+}
+
+.DashboardCenter {
+    margin-bottom: 100px;
+}
+
+.DashboardCenter .container {
+    
+}
+
+.DashboardMonitoringyWaitingImg {
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapperHide {
+    display: none;
+}
+    
+
+
+
+
+.adminSectionNavbar {
+    position: fixed;
+    width: 200px;
+    left: 30px;
+    top: 13%;
+    
+}
+
+.adminSectionNavbar ul {
+    text-decoration: none;
+    color: black;
+}
+
+.adminSectionNavbar ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.adminSectionNavbar ul li a:hover{
+    text-decoration: none;
+}
+
+.adminSectionNavbar .panel-default .panel-heading {
+    background-color: transparent;
+    border-color: #135ab7;
+    color: black;
+}
+
+.adminSectionNavbar .panel-default .panel-heading-active {
+    background-color: #63aae7;
+    border-color: #135ab7;
+    color: black;
+}
+
+.adminSectionNavbar .panel {
+        margin-bottom: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.adminSectionNavbar .panel a:hover {
+    text-decoration: none;
+}
+
+.adminSectionNavbar .panel-heading:hover  {
+    background-color: #aaaaaa;
+    border: 1px solid #999999;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.formWrapper input {
+    margin: 5px 0px 5px 0px;
+    display: block;
+}
+
+.formWrapper label {
+    margin: 5px 0px 5px 0px;
+    display: block;
+}
+
+.logoutBtn 
+{
+    margin:0px 5px 0px 5px;
+    text-align: left;
+    border:none;
+    background-color:transparent;
+    display: block;
+    padding: 7px 5px 7px 10px;
+    clear: both;
+    font-weight: 300;
+    line-height: 1.42857143;
+    color: #ccc;
+    white-space: nowrap;
+    width: 93%;
+}
+
+.logoutBtn:hover {
+    background-color: #eeeeee;
+}
+
+.form-group-inline label  {
+    display: inline-block;
+    /*max-width: 300px;*/
+    /*min-width: 200px;*/
+    width: 200px;
+    margin-right: 30px;
+    text-align: right;
+}
+
+.form-group-inline input {
+    display: inline-block;
+    /*max-width: 300px;*/
+    /*min-width: 200px;*/
+    width: 300px;
+}
+
+.form-group-inline textarea {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+}
+
+.form-group-inline-submit {
+    margin-left: 235px;
+}
+
+
+.form-group-inline-Api {
+    margin: 0px 0 30px 0;
+}
+
+.form-group-inline-Api label  {
+    display: inline-block;
+    width: 150px;
+    /*max-width: 200px;
+    min-width: 110px;*/
+    margin-right: 30px;
+    text-align: right;
+}
+
+.form-group-inline-Api input {
+    display: inline-block;
+    width: 500px;
+    /*max-width: 570px;
+    min-width: 500px;*/
+}
+
+.form-group-inline-Api select {
+          display: inline-block;
+            width: 500px;
+      }
+
+
+.form-group-inline-Api textarea {
+    display: inline-block;
+    vertical-align: top;
+    /*min-width: 200px;*/
+    width: 500px;
+    padding: 10px 16px 10px 16px;
+}
+
+.form-group-inline-Api-submit {
+    margin-left: 235px;
+}
+
+.TrialBtnOrder {
+    margin-left: 185px;
+}
+
+.marginPaddingNull {
+    margin: 0;
+    padding: 0;
+}
+
+.displayNone {
+    display: none;
+}
+
+.CtrlListBoxImg {
+    max-width: 250px;
+    min-width: 80px;
+    height: auto;
+}
+
+
+.form-group-inline select {
+    display: inline-block;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+.navbar-nav li {
+    font-weight: 700;
+}
+
+.navbar-nav li:hover {
+    background-color: black;
+}
+
+.inverse-dropdown li a {
+    font-weight: 700;
+}
+
+.inverse-dropdown li input {
+    font-weight: 500;
+}
+
+.inverse-dropdown{
+  background-color: #333;
+  border-color: #080808;
+}
+
+.inverse-dropdown > li > a{
+    color: #ccc;
+  }
+  
+  .inverse-dropdown > li > a:hover {
+      color: #fff;
+      background-color: #000;
+  }
+
+.slovnicekPojmu{
+font-size: x-large; 
+min-height: 400px;
+ margin-top: 50px;
+}
+
+.slovnicekPojmu a {
+    display: block;
+}
+
+/*
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .headerClearer
+    {
+        width: inherit;
+        height: 100px !important;
+    }
+}
+*/
+
+.headerClearer
+{
+    width:inherit;
+    height:50px;
+}
+
+.tabulkaCenik
+{
+    margin-top:60px;
+    /*
+    border-spacing: 0px 5px;
+    border-collapse: separate;
+    */
+}
+
+.tabulkaCenik tr
+{
+    height:90px;
+    border-bottom: 5px solid white;
+}
+
+.tabulkaCenik tr th, tabulkaCenik tr td
+{
+    width:210px;
+    text-align:center;
+}
+
+.tabulkaCenik tbody tr
+{    
+    background-color:#e7f1fa;
+}
+
+.tabulkaCenik tbody tr td
+{
+    padding:5px 20px 0px 20px;
+}
+.tabulkaCenik tbody tr td.CenikFeatureNotSupported
+{
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    text-align:center;
+    color:#9f9b92;
+    
+}
+
+.borderless {
+    border: none !important;
+    border-color: transparent;
+}
+
+.borderless tr {
+    border: none !important;
+}
+.borderless tr td {
+    border: none !important;
+    
+}
+
+.MonitoringEditFiltersTable {
+    margin-top: 15px;
+}
+
+.MonitoringEditFiltersTable tr td {
+    padding-left: 0px !important;
+}
+
+.buttonAsText
+{
+    margin:0;
+    padding:0;
+    border:none;
+    background-color:transparent;
+}
+
+.colorBlue {
+    color: #357ebd;
+}
+
+.handCursor {
+    cursor: pointer;
+}
+
+.buttonAsTextBlueLarge {
+    margin:0;
+    padding:0;
+    border:none;
+    background-color:transparent;
+    font-size: large;
+    color: #357ebd;
+}
+
+
+.CtrlPouzivaCelyClanek {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.fixedCenikHeader {
+  position: fixed;
+    width: 1140px;
+    top: 40px;
+    margin: auto;
+    background-color: white;    
+ }
+ 
+ .fixedCenikHeader h2 {
+     margin-top: 0;
+     padding-top: 0;
+ }
+ 
+ .ReferenceBlockImg 
+ {
+     padding: 30px 0 0 0;
+     max-width: 180px;
+     height: auto;
+ }
+ 
+ .footerHR {
+     margin: 0px 7px;
+ }
+ 
+ /*
+ .divLastVisitedReportsWrapper:hover #iconLastVisitedReports {
+     -webkit-animation: fa-spin 2s infinite linear reverse;
+    animation: fa-spin 2s infinite linear reverse;
+ }
+ */
+ 
+.bubble 
+{
+    color: #72abfa;
+    top: 0px;
+    display: block;
+position: absolute;
+/*width: 260px;
+height: 120px;
+*/
+padding: 7px 17px;
+background: transparent;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 14px;
+border: #121210 solid 1px;
+}
+
+ .fixedReportHeader {
+  position: fixed;
+    width: 100%;
+     /*padding: 0 380px 0 380px;*/
+    /*top: 40px;*/
+     margin-left: 0;
+     z-index: 1;
+    background-color: white;    
+    /*Pouze na zkousku, melo by umoznit fixed header na mobilnich zarizenich, ale neni jiste jestli to bude fungovat.
+        vesmes je podle toho co jsem na netu zjistil docela problem rozchodit to na vsech mobilnich OS.*/
+    -webkit-backface-visibility:hidden; 
+ }
+ 
+ .ReportHeader2SectionX5 {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    width: 20%;
+    display: block;
+    position: relative;
+    float: left;
+    font-size: 12px;
+    height: 220px;
+     color: black;
+ }
+ 
+ /* font awesome */
+ .wrapperfa {
+     font-size: 32px;
+ }
+ 
+ .divHeaderRightWrapper {
+     border-left: 1px solid lightgray;
+     padding-left: 10px;
+     padding-bottom: 25px;
+     margin-bottom: 5px;
+ }
+    
+ .ReportHeader2SectionX5 img {
+     width: 40px; 
+     height: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ .divUpozorneni {
+     font-size: 12px;
+ }
+ 
+ .trendImg 
+ {
+     font-size: 20px;
+     display: inline-block;
+     margin-left: 5px;
+ }
+ 
+ .ReportHeader2SectionX5 .fa-stack 
+ {
+     width: auto;
+     height: auto;
+ }
+ 
+ .divSemaforOkChecksWrapper {
+     
+ }
+ 
+ 
+ .divSemaforyWrapper {
+     padding-right: 5px;
+     font-size: 12px;
+     padding-bottom: 30px;
+ }
+ 
+ .divSemaforyWrapper img{
+     width: 40px; 
+     height: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ .ReportHeader2SectionX3 {
+    text-align: left;
+    /*border-bottom: 1px solid lightgray;*/
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 33.3333333%;
+    display: block;
+    position: relative;
+    float: left;
+ }
+ 
+ .oddelovac {
+     margin-left: 8px;
+     margin-right: 8px;
+     border-right: 1px solid gray;
+ }
+
+ 
+ .stickyHeader {
+     position: fixed;
+    width: 100%;
+     /*padding: 0 380px 0 380px;*/
+    top: 40px;
+     margin-left: 0;
+     z-index: 1;
+    background-color: white;    
+    /*Pouze na zkousku, melo by umoznit fixed header na mobilnich zarizenich, ale neni jiste jestli to bude fungovat.
+        vesmes je podle toho co jsem na netu zjistil docela problem rozchodit to na vsech mobilnich OS.*/
+    -webkit-backface-visibility:hidden; 
+ }
+ 
+ .stickyHeaderHidden {
+     display: none;
+ }
+ 
+ .AdminSectionDivAnchors {
+     padding-top: 100px;
+ }
+ 
+ .reportHeaderUPWrapper {
+     display: inline;
+ }
+ 
+ .reportHeaderUPWrapper div {
+     display: inline;
+ }
+ 
+ .PartnersRightFixedBlock {
+     position: fixed;
+     left: 70%;
+     max-width: 23%;
+     font-size: 12px;
+ }
+ 
+ @media (max-width: 1400px) and (min-width: 992px) {
+     .PartnersRightFixedBlock {
+     position: fixed;
+         top: 90px;
+     max-width: 21% !important;
+ }
+ }
+ 
+ @media (max-width: 991px)
+ {
+     
+  .PartnersRightFixedBlock {
+     position: relative !important;
+      left: 0px;
+     padding-right: 0 !important;
+     max-width: 100%;
+     margin-bottom: 50px;
+ }
+ 
+ }
+ 
+.blackColor {
+    color: black;
+}
+
+.CenikSpanInBtn {
+    color:black; 
+    border-bottom-color: black;
+}
+.CenikCenaPackageOdsazeni {
+    margin-top: 7px;
+}
+
+.buttonAsText:focus
+{
+    outline: none;
+}
+
+.textAlignLeft
+{
+    text-align:left;
+}
+
+.buttonAsText h3
+{
+    border-bottom: 1px dotted #36b752;
+}
+
+.buttonAsText span
+{
+    color:#428bca;
+    text-align:left;
+    border-bottom: 1px dotted #36b752;
+}
+
+.tabulkaCenik tbody tr.colorSand
+{    
+    background-color:#fdf4e2;
+}
+
+.tabulkaCenik tbody tr.colorGray
+{    
+    background-color:#fafafa;
+}
+
+.tabulkaCenik tbody tr td.CenikFeatureSupported
+{
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    text-align:center;
+    color:#36b752;
+}
+
+.ProductDetailTemplate2Text h4 {
+    margin: 40px 0px 10px 0px;
+}
+
+.InfoSourcesDetailPlaceholder {
+    
+}
+
+.InfoSourcesDetailPlaceholder ul {
+    padding-left: 60px;
+}
+
+.InfoSourcesDetailPlaceholder ul ul{
+    padding-left: 30px;
+}
+
+.InfoSourcesDetailPlaceholder ol {
+    padding-left: 60px;
+}
+
+.ProductDetailTemplate2Text {
+    font-size: 15px;
+}
+
+.ProductDetailTemplate2Text ul {
+    padding-left: 60px;
+}
+
+.ProductDetailTemplate2Text ul ul {
+    padding-left: 30px;
+}
+
+.ProductDetailTemplate2Text ol {
+    padding-left: 60px;
+}
+
+.ProductDetailTemplate2Text ol ol {
+    padding-left: 30px;
+}
+
+.barvaGreen {
+    color: #00ad1e;
+}
+
+.barvaRed {
+    color: red;
+}
+
+.barvaOrange {
+    color: #eea236;
+}
+
+#MetodikaContainer hr {
+    margin: 30px 0 40px 0;
+}
+
+.MetodikaTexty {
+    font-size: medium;
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+.MetodikaTexty ul {
+    padding-left: 60px;
+}
+
+.MetodikaTexty ul ul {
+    padding-left: 30px;
+}
+
+.PartnersTextBox {
+    margin-left: 100px;
+}
+
+@media (max-width: 1200px){
+
+.PartnersTextBox {
+    margin-left: 0px;
+}
+
+}
+.WithBorder
+{
+    border-left:1px solid #9f9b92;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.masterCenter
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr
+{
+    color: #ccc;
+    background-color: #ccc;
+    height: 1px;
+    margin: 5px 0 5px 0;
+}
+
+.CtrlProverujSearchInput {
+    text-align: center; 
+    margin-right: 30px;
+}
+
+body {
+    /*font-family: 'Roboto-Regular', sans-serif;*/
+    /*font-family: 'Roboto-Light', sans-serif;*/
+    font-family: Roboto;
+	font-weight: 300;
+	font-style: normal;
+    /*color: black;*/
+    font-size: 15px;
+}
+
+.CoreSansFontFamily {
+    font-family: CoreSansNR35Light;
+}
+
+.CtrlPouzivaNadpis {
+    font-family: CoreSansNR35Light;
+}
+
+
+h1 
+{
+    font-family: CoreSansNR35Light;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 130%;
+}
+
+h2 {
+    font-family: CoreSansNR35Light;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 130%;
+}
+
+h3 {
+    font-family: Roboto;
+    /*font-family: 'Roboto-Italic', sans-serif;*/
+	font-weight: 300;
+	font-style: normal;
+}
+
+.CtrlButtonsRightViceInformaci {
+    text-transform: uppercase;
+}
+
+.cenikBtn {
+    height: 50px;
+    padding-top: 14px;
+    
+}
+
+.CtrlPouzivaTextBox {
+    padding: 0 5% 0 5%;
+    border: 1px solid #BBBBBB;
+}
+
+.CtrlMonitoringNewForm {
+    width: 70%;
+}
+
+.CtrlMonitoringNewForm div {
+    margin-bottom: 50px;
+    
+}
+
+.CtrlMonitoringNewForm div span {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.gridWrapper {
+    
+}
+
+.mGrid { 
+    width: 100%; 
+    background-color: #fff; 
+    margin: 5px 0 10px 0; 
+    border: solid 1px #525252; 
+    border-collapse:collapse; 
+}
+.mGrid td { 
+    padding: 2px; 
+    border: solid 1px #c1c1c1; 
+    color: #717171; 
+}
+.mGrid th { 
+    padding: 4px 2px; 
+    color: #fff; 
+    background: #3e8acc url(grd_head.png) repeat-x top; 
+    border-left: solid 1px #3e8acc; 
+    font-size: 0.9em; 
+}
+.mGrid .alt { background: #fcfcfc url(grd_alt.png) repeat-x top; }
+.mGrid .pgr { background: #424242 url(grd_pgr.png) repeat-x top; }
+.mGrid .pgr table { margin: 5px 0; }
+.mGrid .pgr td { 
+    border-width: 0; 
+    padding: 0 6px; 
+    border-left: solid 1px #666; 
+    font-weight: bold; 
+    color: #fff; 
+    line-height: 12px; 
+ }   
+.mGrid .pgr a { color: #666; text-decoration: none; }
+.mGrid .pgr a:hover { color: #000; text-decoration: none; }
+
+.fileUpload {
+    width: 300px;
+    height: 50px;
+}
+
+.iconMarginLeft {
+    width: 40px;
+    height: auto;
+    margin-left: 5px;
+}
+
+.googleMapsIconMarginLeft {
+    width: 17px;
+    height: auto;
+    margin-left: 5px;
+}
+
+.ikonaRight {
+    width: 50px;
+    height: auto;
+    margin-top: 5px;
+}
+
+.nadpis.width100 {
+    width: 100%;
+}
+
+.nadpis2.width100 {
+    width: 100%;
+}
+
+.nadpis
+{
+    font-size: 50px;
+    width: 500px;
+    line-height: 130%;
+}
+
+.nadpis p
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nadpis2.bezOdsazeni {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.nadpis2
+{
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 500px;
+    line-height: 130%;
+}
+
+
+.nadpis2 p
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nadpis3
+{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.form-control-custom {
+    width: 90%;
+}
+
+.adminSection-tr-custom {
+    margin-top: 15px;
+}
+
+.nadpis3 p
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.SlovnicekPojmuDetailText {
+    font-size: large;
+}
+
+.SlovnicekPojmuDetailText ul {
+    padding-left: 60px;
+}
+
+.SlovnicekPojmuDetailText ul ul {
+    padding-left: 30px;
+}
+
+.SlovnicekPojmuDetailText ol {
+    padding-left: 60px;
+}
+
+.SlovnicekPojmuDetailText ol ul {
+    padding-left: 30px;
+}
+
+.linkAsText {
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btnAsText {
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    background: transparent;
+}
+
+.btnAsTextBlue {
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    background: transparent;
+    color: #3e8acc;
+}
+
+.blue {
+    color: #3e8acc;
+}
+
+
+.linkAsTextInline {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.linkAsTextInline:hover {
+    text-decoration: none;
+    color: #333;
+    cursor: default;
+}
+
+.linkAsTextInlineWithoutMargin {
+    text-decoration: none;
+    display: inline-block;
+    color: #333;
+}
+
+.linkAsTextInlineWithoutMargin:hover {
+    text-decoration: none;
+    color: #333;
+    cursor: default;
+}
+
+.displayInline {
+    display: inline;
+}
+
+.KontaktSection {
+    margin: 30px 0 35px 0;
+}
+
+.linkAsText:hover 
+{
+    cursor: pointer;
+    /*color: #36b752;*/
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.CtrlPouzivaText {
+    margin: 30px 0 0 0;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.CtrlPartnersLogo {
+    float: right;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.SectionsPadding {
+    padding-top: 30px;
+}
+
+.CtrlPartnersLogoImg {
+    max-width: 100px;
+    height: auto;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.odsazeniTop30px
+{
+    margin-top: 30px;
+}
+
+.odsazeniBottom30px {
+    margin-bottom: 30px;
+}
+
+.odsazeniLeft10px {
+    margin-left: 10px;
+}
+
+.odsazeniLeft5px {
+    margin-left: 5px;
+}
+
+.fontSize20 {
+    font-size: 20px;
+}
+
+.odsazeniLeft15px {
+    margin-left: 15px;
+}
+
+.odsazeniRight15px {
+    margin-right: 15px;
+}
+
+.odsazeniLeft30px {
+    margin-left: 30px;
+}
+
+.socialNetworksIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.blockDisplay {
+    display: block;
+}
+
+.ikona
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.viceInformaci
+{
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.zpusobPouzitiNadpisy {
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.zpusobPouzitiText {
+    padding:0 10% 0 10%;
+    font-size: 15px;
+}
+
+.green_text
+{
+    color: #00ad1e;
+}
+
+.whiteText {
+    color: white;
+}
+
+.customBtnInLoginBox {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #ccc;
+    white-space: nowrap;
+    border: none;
+    background-color: transparent;
+}
+
+
+.headerBlock
+{
+    background-color: #444444;
+    position: fixed;
+    height: 35px;
+    width: 100%;
+    z-index: 99;
+}
+
+.tbcProductGroups {
+    
+}
+
+.tbcProductGroups .ajax__tab_outer {
+    height: 40px;
+    background-color: #428bca;
+    color: #ffffff;
+    border: 1px solid #6D6D6D;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 1px 2px 4px #000000;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tbcProductGroups .ajax__tab_body {
+    margin-top: 30px;
+}
+
+.ProductGroupsTBC .ajax__tab_body {
+    margin-top: 30px;
+}
+
+.UserManagement_VeStavu td {
+    padding-right: 10px;
+}
+
+.UserManagement_VeStavu label {
+    padding-left: 3px;
+}
+
+.bodyBlock
+{
+    height: 500px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 60px;
+}
+
+.bodyBlockBezPadding
+{
+    height: 500px;
+}
+
+
+.btn-header
+{
+    color: #dddddd;
+    background-color: #444444;
+    border-color: #444444;
+}
+.btn-header:hover, .btn-header:focus, .btn-header:active, .btn-header.active, .open > .dropdown-toggle.btn-header
+{
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
+}
+.btn-header:active, .btn-header.active, .open > .dropdown-toggle.btn-header
+{
+    background-image: none;
+}
+.btn-header.disabled, .btn-header[disabled], fieldset[disabled] .btn-header, .btn-header.disabled:hover, .btn-header[disabled]:hover, fieldset[disabled] .btn-header:hover, .btn-header.disabled:focus, .btn-header[disabled]:focus, fieldset[disabled] .btn-header:focus, .btn-header.disabled:active, .btn-header[disabled]:active, fieldset[disabled] .btn-header:active, .btn-header.disabled.active, .btn-header[disabled].active, fieldset[disabled] .btn-header.active
+{
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-header .badge
+{
+    color: #fff;
+    background-color: #333;
+}
+
+.fontWeightNormal {
+    font-weight: 300;
+}
+
+.footerFirmyCountRow
+{
+    color: White;
+    vertical-align: middle;
+}
+
+.footerFiremCelkem
+{
+    color: #3e8acc;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+.footerFiremWarning
+{
+    color: #eea236;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+.footerGreenHeaders {
+    font-weight: 700;
+    color: #00ad1e;
+    text-transform: uppercase;
+}
+
+.footerLinks {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.footerLinks:hover 
+{
+    cursor: pointer;
+    color: #36b752;
+    text-decoration: none;
+}
+
+
+.footerFiremBad
+{
+    color: #ff1010;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+.footerFiremNormal
+{
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+.footerHeaderRow
+{
+    background-color: #444;
+}
+
+.productsUkazkyImg {
+    max-width: 100%;
+}
+
+.productsCaption {
+    margin-top: 20px;
+}
+
+.productsUkazkyDiv {
+    padding: 3%;
+}
+
+
+.GridViewWrapper { 
+            width : 100%;
+            margin-left: auto; 
+            margin-right: auto; 
+          }
+          
+.monitoringZmenyLabel {
+    margin: 40px 0px 5px 0px;
+    display: block;
+}
+
+.MonitoringBatchEdit_MonitoringTypesTable {
+    
+}
+
+.MonitoringBatchEdit_MonitoringTypesTable tr td label {
+    margin-left: 10px;
+}
+
+
+/* SORTING PAGINATION TABLE */
+
+.dataTable{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: none;
+}
+
+.dataTable thead th{
+    border: none;
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    background-color: rgb(249, 249, 249);
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.dataTables_filter {
+    float: right;
+    display: inline-block;
+}
+
+.dataTables_filter label input {
+    margin-left: 10px;
+}
+.dataTables_length {
+    display: inline-block;
+}
+
+.dataTables_info {
+    display: inline-block;
+}
+
+.dataTables_paginate {
+    display: inline-block;
+    float: right;
+}
+
+.dataTables_paginate a {
+    cursor: pointer;
+}
+
+.dataTables_paginate span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dataTables_paginate span a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dataTable tr {
+    border: none;
+}
+
+.dataTable tr:nth-child(even) {
+    background-color: rgb(249, 249, 249);
+}
+
+.dataTable tr td {
+    border: none;
+     padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;    
+    border-top: 1px solid #ddd;
+}
+
+
+.table_15_70_15 {
+    table-layout: fixed;
+}
+
+.table_15_70_15 th:nth-child(1), .table_15_70_15 td:nth-child(1) {
+  width: 15%;
+}
+.table_15_70_15 th:nth-child(2), .table_15_70_15 td:nth-child(2) {
+  width: 70%;
+}
+.table_15_70_15 th:nth-child(3), .table_15_70_15 td:nth-child(3) {
+  width: 15%;
+    text-align: right;
+}
+
+
+
+
+.fnTable table {    
+    width: 100%;
+}
+
+.fnTable .table {
+    width: 100%;
+}
+
+
+.btnAdminUserToolbar {
+    display: inline-block;
+    padding: 6px 0px 6px 6px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.highChartContainer {
+    margin: 15px 0px;
+}
+
+
+.inlineH3 {
+    display: inline-block;
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: Roboto;
+    font-size: 26px;
+}
+
+
+.stamp {
+    position: relative;
+    display: inline-block;
+    color: red;
+    padding: 6px 10px;
+    background-color: white;
+    box-shadow: inset 0 0 0px 4px red;
+    border-radius: 10px;
+    border: 4px solid transparent;
+    font-size: 15px;
+     /*-webkit-transform: rotate(-45deg); 
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+     transform: rotate(-45deg);*/ 
+    top: -75px;
+    left: 58px;
+}
+
+    .stamp:hover {
+        color: darkred;
+        box-shadow: inset 0 0 0px 4px firebrick;
+        text-decoration: none;
+    }
+
+.oznamitStampBtn {
+    font-family: 'Fredericka the Great', cursive;
+    position: relative;
+    display: inline-block;
+    color: red;
+    padding: 8px 20px;
+    background-color: transparent;
+    //box-shadow: inset 0 0 0px 4px red;
+    border-radius: 10px;
+    border: 4px dotted red;
+    font-size: 20px;
+    top: -90px;
+    left: 10px;
+    text-decoration: none;
+    -webkit-transform: rotate(-45deg); /* Safari */
+    -moz-transform: rotate(-45deg); /* Firefox */
+    -ms-transform: rotate(-45deg); /* IE */
+    -o-transform: rotate(-45deg); /* Opera */
+    transform: rotate(-45deg);
+    opacity: 0.5;
+}
+
+.stamp:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("/Images/styling/stamp_blend.jpg");
+        mix-blend-mode: lighten;
+    }

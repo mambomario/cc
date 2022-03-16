@@ -1,0 +1,64 @@
+/*   VARIABLES    */
+/*$dblue: #171DD5;*/
+@media (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2) {
+  body section, body .container {
+    max-width: 1280px;
+    margin: 0 auto; }
+  #ctl00_MainContent_Proveruj1_sectionProveruj {
+    margin-top: 30px; }
+  .nav.navbar-nav.navbar-right {
+    padding: 30px 0; }
+  #ctl00_MainContent_Proveruj1_ctrl_ProverujNadpis {
+    text-align-last: left; }
+  #ctl00_MainContent_Proveruj1_sectionProveruj h2 {
+    display: block;
+    font: normal normal normal 16px/24px Lexend Deca;
+    letter-spacing: 0.22px;
+    max-width: 300px; }
+  #ctl00_MainContent_Proveruj1_sectionProveruj .col-sm-6 {
+    margin-top: 0 !important; }
+  #ctl00_MainContent_Proveruj1_sectionProveruj .col-sm-6 div {
+    max-width: 500px; }
+  #sectionZpusobyPouziti {
+    padding-top: 0 !important; }
+    #sectionZpusobyPouziti #ctl00_MainContent_ZpusobyPouziti1_ctrl_ZpusobyPouzitiNadpis {
+      max-width: 480px;
+      margin: 0 auto;
+      font: normal normal bold 32px/40px Lexend Deca;
+      letter-spacing: 0.45px; }
+    #sectionZpusobyPouziti .col-md-4 h3 {
+      padding-top: 20px;
+      font: bold 18px/8px Lexend Deca;
+      letter-spacing: 0.25px; }
+    #sectionZpusobyPouziti .col-md-4 #ctl00_MainContent_ZpusobyPouziti1_ctrl_ZpusobyPouzitiText1,
+    #sectionZpusobyPouziti .col-md-4 #ctl00_MainContent_ZpusobyPouziti1_ctrl_ZpusobyPouzitiText2,
+    #sectionZpusobyPouziti .col-md-4 #ctl00_MainContent_ZpusobyPouziti1_ctrl_ZpusobyPouzitiText3 {
+      font: normal normal normal 16px/24px Lexend Deca;
+      letter-spacing: 0.22px; }
+  #ctl00_MainContent_DuverujBook1_sectionDuverujAleProveruj #ctl00_MainContent_DuverujBook1_ctrl_DuverujAleProverujNadpis {
+    font: normal normal bold 32px/48px Lexend Deca;
+    letter-spacing: 0.45px; }
+  #ctl00_MainContent_DuverujBook1_sectionDuverujAleProveruj .col-md-5 {
+    float: right; }
+  footer .col-md-3:nth-of-type(3) {
+    display: none; }
+  footer .col-md-12 {
+    text-align-last: left; }
+    footer .col-md-12 a, footer .col-md-12 span {
+      display: inline-block; }
+  footer #sectionZpusobyProverovani #ctl00_Footer1_ctrlFooterMailTo, footer #sectionZpusobyProverovani #ctl00_Footer1_ctrlFooterTel {
+    float: right;
+    min-width: 200px;
+    padding: 5px 0 5px 30px; }
+  footer p.fontWeightNormal.whiteText {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -25px; }
+  #ctl00_MainContent_DuverujBook1_Image1 {
+    position: relative;
+    top: -60px; }
+  #aboutUs .container {
+    max-width: 100%; }
+  #aboutUs .mdbr {
+    border-right: 1px solid #DAE1FF; } }

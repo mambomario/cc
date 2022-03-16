@@ -1,0 +1,508 @@
+/*@import "index_file/bootstrap.css";*/
+@import 'mybootstrap/bootstrap';
+/* temporary */
+
+.sectionReportFooter {
+    display: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700;800&display=swap');
+
+/*   VARIABLES    */
+$dblue : #111F50;
+$lblue: #F9FBFF;
+$mblue: #F2F6FE;
+$sblue: #171DD5; /*$dblue: #171DD5;*/
+$white: #ffffff;
+$black: #111F50;
+$lgreen: #2BF260;
+
+/*   GENERAL CSSs    */
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #F9FBFF;
+    background: url('../images/logo_bg.png') no-repeat #F9FBFF;
+    background-position-y: 100px;
+    color: $black !important;
+    h2, h3, h4, h5 {
+        color: $black;
+    }
+
+    .container {
+        
+    }
+
+    a, a:hover, a:visited, svg {
+        color: $sblue;
+    }
+
+    .btn-primary {
+        font: 40px;
+    }
+}
+
+table, tr {
+    border-bottom: 1px solid #D9DFF8;
+}
+.nadpis, .nadpis2, .nadpis3 {
+    width: auto;
+}
+.btn-primary {
+    background: transparent linear-gradient(180deg, #1657F8 0%, #1657F8 100%) 0% 0% no-repeat padding-box;
+    background-color: $sblue !important;
+}
+
+.sectionMinus {
+   
+    box-shadow: inset 0px -4px 4px #111F5033, 2px 4px 16px #1655F766;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 16px;
+}
+
+#fixedArrowBackToTop {
+    background: transparent linear-gradient(180deg, #1657F8 0%, #171DD5 100%) 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px -4px 4px #111F5033, 2px 4px 16px #1655F766;
+    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    img {
+        margin: 0 auto;
+        position: relative;
+        top: -10px;
+    }
+}
+
+.proverBtn, .RPMRightSideBtn, .MarkeetoRightSideBtn {
+    background: transparent;
+    box-shadow: none;
+    span {
+        color: $black !important;
+    }
+}
+
+#sectionCCLPodrobneVysledky {
+    color: $black;
+    h2, h3, h4, h5 {
+        color: $black;
+    }
+}
+
+footer, #sectionZpusobyProverovani {
+    background: #111f50;
+}
+
+
+
+/*  NAV  */
+
+a.navbar-brand {
+    margin-top: 30px;
+    margin-right: 60px;
+}
+.navbar-nav {
+    padding: 30px 0;
+}
+.navbar-nav li:hover {
+    background-color: #fff;
+}
+.navbar-inverse {
+    border: none;
+}
+.navbar-inverse .navbar-nav > li > a {
+    text-align: left;
+    font:  16px/20px Lexend Deca;
+    letter-spacing: 0.22px;
+    color: $dblue;
+
+    &#ctl00_CtrlMenu1_btnTrial {
+        color: $white;
+        background: $sblue;
+    }
+}
+.nav.navbar-nav.navbar-right {
+    padding: 0;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #fff;
+}
+.dropdown-menu > ul {
+    border-raius: 8px !important; 
+    border-top-right-radius: auto;
+    border-top-left-radius: auto;
+}
+
+.dropdown-menu > li > a {
+    font:  16px/24px Lexend Deca;
+    color: $dblue;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    border-radius: 8px;
+    box-shadow: 0px 8px 24px #163CD10D;
+    border: none;
+
+}
+
+.navbar-toggle {
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+    background: white;
+    border: none;
+    background: $white;
+    
+    .icon-bar {
+        background-color: $black;
+        margin: 6px 0;
+
+
+        &:nth-child(1), &:nth-child(even) {
+            width: 11px;
+        }
+    }
+}
+.navbar-inverse .navbar-toggle  .icon-bar {
+        background-color: $black;
+
+    }
+
+
+
+
+/*   FULL REPORT  CSSs    */
+
+@import 'fr_mobile.scss';
+@import 'fr_desktop.scss';
+#divSectionsX3Wrapper {
+    margin-left: 40px;
+}
+
+#ctl00_MainContent_CtrlPeopleTable_MainRepeater_ctl00_PersonRepeater_ctl00_divtableWraper {
+    table {
+        background: $lblue ;
+    }
+}
+
+table#ctl00_MainContent_CtrlPeopleTable_MainRepeater_ctl00_PersonRepeater_ctl01_tblLide {
+    border: none;
+}
+#divSectionsX3Content, #ctl00_MainContent_divFinUkazateleWrapper {
+    line-height: 24px;
+    .ReportHeader2SectionX3 {
+        padding-right: 70px !important; 
+        padding-left: 0px !important; 
+    }
+
+    #ctl00_MainContent_divSectionX3_1Wrapper {
+        padding-left: 25px !important;
+    }
+
+    #ctl00_MainContent_divSectionX3_3Wrapper {
+        padding-right: 0px !important; 
+    }
+}
+
+#ctl00_MainContent_divFinUkazateleWrapper {
+
+    .ReportHeader2SectionX3:nth-child(1) {
+        padding-left: 25px !important;     
+    }
+
+    #ctl00_MainContent_divFinUkazateleDataWrapper3 {
+        padding-right: 0px !important;
+    }
+}
+#ctl00_CPHHeader_CtrlMenu1_btnTrial {
+    background: transparent linear-gradient(180deg, #1657F8 0%, #1657F8 100%) 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px -4px 4px #111F5033, 2px 4px 16px #1655F766;
+    border-radius: 8px;
+    color: #fff;
+    font: normal normal normal 16px/20px Lexend Deca;
+    padding: 13px 24px 15px 24px;
+    float: right;
+
+}
+
+#ctl00_CPHHeader_CtrlMenu1_LoginBox1_hlLogin {
+    border: 1px solid #D9DFF8;
+    border-radius: 8px;
+    margin: 0 16px;
+    padding: 14px 30px;
+
+    img {
+        padding-right:  5px;
+    }
+}
+#ctl00_MainContent_CtrlReportHeader_UpdatePanel1 {
+    a, a:hover, a:visited, svg {
+        color: $sblue;
+    }
+
+}
+    .oddelovac {
+        border-right: 1px solid #D9DFF8;
+        margin: 0 15px;
+
+    }
+
+#sectionCCLActionsHeader {
+    margin-top: 80px;
+    border: none !important;
+    background: transparent;
+
+    &.fixedReportHeader {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+#sectionCCLActionsHeader {
+    text-align: center;
+    width: 100%;
+
+}
+#StickyHeader {
+
+    padding: 30px auto !important;
+    margin: 20px auto;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 24px #163CD10D;
+    border-radius: 8px;
+
+
+    #ctl00_MainContent_CtrlReportHeader_CtrlSubjectName
+    {
+        font: normal normal bold 20px/20px Lexend Deca;
+        letter-spacing: 0.28px;
+        color: #111F50;
+    }
+
+    #ctl00_MainContent_CtrlReportHeader_lblIc,
+    #ctl00_MainContent_CtrlReportHeader_lblDic,
+    #ctl00_MainContent_CtrlReportHeader_lblDatovaSchranka {
+        font: 16px/20px Lexend Deca;
+        font-weight: bold;
+    }
+
+    #ctl00_MainContent_CtrlReportHeader_lblDataIc,
+    #ctl00_MainContent_CtrlReportHeader_lblDataDic,
+    #ctl00_MainContent_CtrlReportHeader_hlDataDatovaSchranka {
+        text-decoration: underline;
+        font: 16px/20px Lexend Deca;
+        letter-spacing: 0.22px;
+        color: $sblue;
+    }
+
+}
+
+.oddelovac {
+    background: #D9DFF8 0% 0% no-repeat padding-box;
+
+}
+#sectionCCLHeader {
+    background: $lblue;
+
+    #sectionCCLHeaderOverview {
+/*        border: 1px solid #D9DFF8;
+        border-radius: 8px;*/
+        padding: 15px 0 !important;
+        margin: 0 !important;
+
+        .container {
+            padding: 23px ;
+            margin: 0;
+            border: 1px solid #D9DFF8;
+            border-radius: 8px;
+        }
+
+/*       span  {
+            line-height: 20px;
+            padding-top: 5px;
+            display: inline-block;
+            width: 24.5%;
+            span {
+                width: 100%;;  
+            }
+            
+       }*/
+
+       .oddelovac {
+        display: none;
+       }
+    }
+
+    h3 {
+        font: normal normal bold 18px/20px Lexend Deca;
+        letter-spacing: 0.25px;
+    }
+
+    h4 {
+        font: normal normal bold 18px/20px Lexend Deca;
+        letter-spacing: 0.25px;
+    }
+
+    #ctl00_MainContent_CtrlReportHeader_sectionX5_1_divSectionX5DataWrapper {
+        font: normal normal medium 14px/20px Lexend Deca;
+        letter-spacing: 0.2px;
+    }
+    div:first-of-type {
+        background: transparent !important;
+
+        .container {
+            background: $white !important;
+            border-raidus: 6px;
+            padding: 30px 24px;
+            color: #111F50;
+
+            .oddelovac {
+                margin: 0 40px;
+            }
+        }
+    }
+
+    .col-lg-2.col-md-2.col-sm-2 {
+        box-shadow: 0px 8px 24px #163CD10D;
+        border-radius: 8px;
+        background: $white !important;
+        border: none;
+    }
+
+    #ctl00_MainContent_CtrlReportHeader_divSemaforBadChecks {
+        font: 16px/32px Lexend Deca;
+        letter-spacing: 0px;
+    }
+    #ctl00_MainContent_CtrlReportHeader_divSemaforBadChecksWrapper {
+        margin-bottom: 30px;
+    }
+
+    .col-lg-10 col-md-10 col-sm-10 .divHeaderRightWrapper {
+        border-bottom: 1px solid #D9DFF8;
+        margin-bottom: 30px;
+    }
+    .ReportHeader2SectionX5 {
+        border-bottom: none;
+        line-height: 20px;
+        text-align: center;
+
+        .wrapperfa {
+            background: url() ;
+        }
+
+
+    }
+
+    .hline {
+                border: 1px solid #D9DFF8;
+                position: absolute;
+                top: 80px;
+                width: 100%;
+    }
+
+
+
+    #ctl00_MainContent_tbcExtraData_body {
+        padding: 0 24px;
+    }
+    #ctl00_MainContent_CtrlReportHeader_divSemaforOkChecksWrapper {
+        border-top: 1px solid #D9DFF8;
+      h4 {
+        margin: 30px auto;
+      }  
+    }
+    .divHeaderRightWrapper {
+        border: none;
+/*        .row:first {
+            margin: 0;
+            border-bottom: 1px solid #D9DFF8;
+        }*/
+
+    }
+
+}
+.cclist .ajax__tab_tab {
+    font:  16px/24px Lexend Deca;
+    letter-spacing: 0.22px;
+    color: $dblue;
+    padding: 20px;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.cclist .ajax__tab_active .ajax__tab_tab,
+.cclist .ajax__tab_hover .ajax__tab_tab {
+    font: 16px/24px Lexend Deca;
+    letter-spacing: 0.22px;
+    color: $dblue;
+    background: $white;    
+    border: none;
+    padding: 20px;
+    margin: 0;
+}
+
+#ctl00_MainContent_tbcExtraData_tbcSubjectDEtails {
+    background: $white;
+    padding: 0;
+
+}
+/*#ctl00_MainContent_tbcExtraData_header {
+    font: normal normal bold 16px/24px Lexend Deca;
+    letter-spacing: 0.22px;
+    color: $dblue !important;
+
+    #__tab_ctl00_MainContent_tbcExtraData_tbcSubjectDEtails,
+    #ctl00_MainContent_tbcExtraData_tbcCreditCheckHistory_DetailyHistorieNadpis, 
+    #ctl00_MainContent_tbcExtraData_tbcFinancialData_FinDataNadpis,
+    #ctl00_MainContent_tbcExtraData_tbcVisualization_VizualizaceNadpis, 
+    #ctl00_MainContent_tbcExtraData_tbcCeecr_ExekuceNadpis  {
+        color: $dblue;
+        background: transparent;
+        border: none;
+    }
+
+
+}*/
+
+.sectionHeaderLabel {
+        font: normal normal bold 18px/24px Lexend Deca;
+        letter-spacing: 0.25px;
+        color: #111F50 !important;
+}
+
+.sectionHeader {
+        background: #F8FAFE 0% 0% no-repeat padding-box;
+        border: 1px solid #D9DFF8;
+        border-radius: 8px;
+        display: none;        
+}
+
+#sectionZpusobyProverovani {
+    background: $dblue !important;
+
+    h4 {
+        font: normal normal 600 18px/24px Lexend Deca;
+    }
+
+    a.footerLinks {
+        font: normal normal normal 14px/32px Lexend Deca;
+        color: white;
+    }
+}
+#ctl00_MainContent_CCLFullPravneUpozorneni {
+    .grayedText {
+        color: $dblue;
+    }
+    color: $dblue;
+}
+
+/*   HOMEPAGE  CSSs    */
+@import  "hp_general.scss";
+@import  "hp_mobile.scss";
+@import  "hp_desktop.scss";
+
+

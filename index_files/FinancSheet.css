@@ -1,0 +1,117 @@
+﻿/* Financial closing sheet */
+
+.financ_sheet {
+	color: #000;
+	/*font-family: Tahoma, Helvetica, sans-serif;*/
+	font-size: 14px;
+	margin: 0px;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.financ_sheet tr {
+	border-bottom: solid 1px #ccc;
+}
+
+.financ_sheet tr.head {
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+}
+
+.financ_sheet th {
+	vertical-align: middle;
+	text-align: left;
+	font-weight: 300;
+	padding: 5px 5px;
+	border-right: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	border-left: solid 1px #ccc;
+	width: 270px;
+}
+
+.financ_sheet td {
+	vertical-align: middle;
+	text-align: right;
+	font-weight: 300;
+	padding: 5px 5px;
+	border-right: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+}
+
+.financ_sheet tr.head td,
+.financ_sheet tr.head th {
+	color: #000;
+	font-weight: bold;
+	background-color: #eee;
+}
+
+.blue 
+{
+    /*
+    color: #62abea;
+    2019-01-09: ztmaveno 
+    */
+    color: #428bca;
+}
+
+
+.financ_sheet tr.blue td,
+.financ_sheet tr.blue th {
+	padding: 5px 5px;
+	background-color: #62abea;
+    color: black;
+}
+
+.financ_sheet tr.blue2 td,
+.financ_sheet tr.blue2 th {
+	padding: 5px 5px;
+	background-color: #82CBF9;
+}
+
+.financ_sheet tr td.neg {
+	color: red;
+	width: 95px !important;
+}
+
+.financ_sheet tr td.poz {
+	color: green;
+	width: 95px !important;
+}
+
+.financ_sheet tr td.nor {
+	background-color: #fff;
+	width: 95px !important;
+}
+
+.financ_sheet tr td.err {
+	color: #bbb;
+	font-style: italic;
+	background-color: #fff;
+	width: 95px !important;
+}
+
+.cellwidth260 {
+	width: 260px !important;
+}
+
+.cellwidth230 {
+	width: 230px !important;
+}
+
+.cellwidth210 {
+	width: 210px !important;
+}
+
+.cellwidth53 {
+	width: 53px !important;
+}
+
+.cellwidth46 {
+	width: 47px !important;
+}
+
+.cellwidth22 {
+	text-align: center !important;
+	width: 22px !important;
+	padding: 0px !important;
+}
