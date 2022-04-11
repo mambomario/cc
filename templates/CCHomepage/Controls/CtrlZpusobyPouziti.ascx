@@ -10,7 +10,7 @@
                 <h3 id="ctrl_ZpusobyPouzitiNadpis1" runat="server" class="zpusobPouzitiNadpisy CoreSansFontFamily">
                    
                 </h3>
-                <asp:Image CssClass="ikona" ID="Image1" runat="server" ImageUrl="~/Images/icons/ozubeneKolecko.gif" />
+                <asp:Image CssClass="ikona" ID="Image1" runat="server" ImageUrl="~/Images/icons/ozubeneKolecko.svg" />
                 <p id="ctrl_ZpusobyPouzitiText1" runat="server" class="zpusobPouzitiText">
                     Prověřujte své klienty či dodavatele přímo z vašeho informačního systému. Podporujeme
                     <a href="Partners.aspx">desítky systémů.</a></p>
@@ -21,7 +21,7 @@
                 <h3 id="ctrl_ZpusobyPouzitiNadpis2" runat="server" class="zpusobPouzitiNadpisy CoreSansFontFamily">
                     
                 </h3>
-                <asp:Image CssClass="ikona" ID="Image2" runat="server" ImageUrl="~/Images/icons/browser.gif" />
+                <asp:Image CssClass="ikona" ID="Image2" runat="server" ImageUrl="~/Images/icons/browser.svg" />
                 <p id="ctrl_ZpusobyPouzitiText2" runat="server" class="zpusobPouzitiText">
                     Přihlašte se na CREDITCHECK odkudkoliv z libovolného prohlížeče a prověřujte subjekty
                     on-line.</p>
@@ -32,7 +32,7 @@
                 <h3 id="ctrl_ZpusobyPouzitiNadpis3" runat="server" class="zpusobPouzitiNadpisy CoreSansFontFamily">
                    
                 </h3>
-                <asp:Image CssClass="ikona" ID="Image3" runat="server" ImageUrl="~/Images/icons/envelope.gif" />
+                <asp:Image CssClass="ikona" ID="Image3" runat="server" ImageUrl="~/Images/icons/envelope.svg" />
                 <p id="ctrl_ZpusobyPouzitiText3" runat="server" class="zpusobPouzitiText">
                     Další text</p>
                 <p class="viceInformaci">

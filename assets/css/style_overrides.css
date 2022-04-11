@@ -5389,9 +5389,6 @@ a.navbar-brand {
     min-width: 1400px;
     width: 1400px;
     overflow: display;
-    margin: 0 auto; }
-  #StickyHeader {
-    width: 100%;
     margin: 0 auto; } }
 
 #divSectionsX3Wrapper {
@@ -5815,7 +5812,7 @@ footer {
     padding: 5px 20px;
     margin: 40px auto; }
   #aboutUs .container {
-    max-width: 500px; }
+    /*max-width: 500px;*/ }
   #aboutUs .xsbr {
     border-right: 1px solid #DAE1FF; }
   #aboutUs .xsbb {

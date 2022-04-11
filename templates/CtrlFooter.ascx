@@ -1,24 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CtrlFooter.ascx.cs"
     Inherits="CCH_Web.Controls.CtrlFooter" %>
 <section id="sectionZpusobyProverovani" style="min-height: 500px; padding-top: 0px; background-color: #333;">
-    <div class="footerHeaderRow">
-        <div class="container">
-            <div class="footerFirmyCountRow" style="height: 50px;">
-                <div id="ctrlFooterSubjectCounts" runat="server" style="padding-top: 15px; display: inline-block;" class="fontWeightNormal">
-                    <span style="vertical-align: middle;"></span><span class="footerFiremCelkem" style="margin: 0 0 0 5px;">500 000</span> <span class="footerDelimiter">|</span>
-                    <img style="max-width: 20px; height: auto; margin: 0 5px 0 0px;" src="/Images/icons/semaforWarning.gif" /><span class="footerFiremWarning">
-                    450 000</span> <span class="footerDelimiter">|</span>
-                    <img style="max-width: 20px; height: auto; margin: 0 5px 0 0;" src="/Images/icons/semaforBad.gif" /><span class="footerFiremBad"> 1 750 000</span> <span class="footerDelimiter">|</span><span id="FooterDluznici" runat="server" style="vertical-align: middle;"></span><span class="footerFiremNormal">350
-                        756</span> <span class="footerDelimiter">|</span><span id="FooterKonkurz" runat="server" style="vertical-align: middle;"></span><span class="footerFiremNormal">280 576</span>
-                </div>
-                <div style="display: inline-block; float: right; margin-top: 8px;">
-                    <a id="CtrlBtn14DniZdarma" runat="server" href="~/Trial.aspx" type="button" class="btn btn-primary" style="float: right; vertical-align: middle;">14 dní ZDARMA</a>
-                    <a id="ctrlBtnCenik" runat="server" href="/Cenik.aspx" class="btn btn-success" style="margin-right: 15px; float: right">Cenník</a>
-                </div>
 
-            </div>
-        </div>
-    </div>
     <div class="container" style="margin-top: 70px;">
         <div class="row">
             <div class="col-md-3">
@@ -96,7 +79,7 @@
         </div>
         <div class="row" style="margin-top: 50px;">
             <div class="col-md-12">
-                <img src="/Images/CClogo-RGB.png" style="height: 20px; width: auto; float: left; margin-right: 50px;" />
+                <img src="/Images/CClogo-RGB_white.png" style="height: 20px; width: auto; float: left; margin-right: 50px;" />
                 <p class="fontWeightNormal whiteText"><span id="spanFooterCCName" runat="server">© 2010 - 2015 Credit Check, s.r.o. </span><span class="footerDelimiter">|</span> <a id="ctrlFooterMailTo" runat="server" href="mailto:info@creditcheck.sk">info@creditcheck.sk</a> <span class="footerDelimiter">|</span><span id="ctrlFooterTel" runat="server"> +421 233 456 622</span></p>
             </div>
         </div>

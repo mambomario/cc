@@ -39,13 +39,15 @@
                         CompletionSetCount="5" MinimumPrefixLength="1" CompletionInterval="1"
                         ServiceMethod="GetAutoCompleteList" FirstRowSelected="False" DelimiterCharacters=""
                         CompletionListCssClass="completionList" CompletionListHighlightedItemCssClass="itemHighlighted" CompletionListItemCssClass="listItem" />
-
+                    <div >    
                     <asp:Button ID="btnHomepageProverit" runat="server" CssClass="btn btn-primary btn-lg" Text="Preverit"
                         Style="width: 180px;" OnClick="Prover_Click" />
+                    </div>
                 </div>
             </div>
             <div class="col-sm-6" style="margin-top: 8%; padding-left: 20px;">
                 <div id="divVideoWrapperCZ" runat="server" visible="false">
+                <img src="~Images/header_image.png"> 
                     <iframe allowfullscreen="allowFullScreen"
                         src="https://www.youtube.com/embed/g1_0D7Bdcak?ecver=1&amp;iv_load_policy=1&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560"
                         width="550" height="305" allowtransparency="true" frameborder="0"></iframe>

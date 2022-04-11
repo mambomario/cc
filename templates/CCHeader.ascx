@@ -6,7 +6,7 @@
 <div class="col-xs-12">
     <ul class="nav navbar-nav" style="width: 100%; height: 100%;">
         <li><a href="../Default.aspx" class="btn btn-header">
-            <img src="../Images/CClogo-RGB.gif" style="width: 200px; height: 20px; margin-right: 20px;" /></a></li>
+            <img src="/Images/CClogo-RGB.png" style="width: 200px; height: 20px; margin-right: 20px;" /></a></li>
         <li class="dropdown"><a id="drop1" href="../Products.aspx" role="button" class="btn btn-header"
                                 data-toggle="dropdown" data-trigger="hover">Produkty <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">

@@ -28,6 +28,7 @@
     <cc:proveruj ID="Proveruj1" runat="server" UseBaseLocalization="true" />
     <cc:zpusobyPouziti ID="ZpusobyPouziti1" runat="server" />
     <cc:reference ID="Reference1" runat="server" />
+    <cc:CCvCislech ID="AboutUs" runat="server" />
     <cc:duverujBook ID="DuverujBook1" runat="server" />
     <cc:ccPouziva ID="Pouziva1" runat="server" Visible="False" />
 </asp:Content>

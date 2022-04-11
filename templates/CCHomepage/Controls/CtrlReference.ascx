@@ -3,10 +3,17 @@
 <div class="container">
     <div id="CtrlReferencePanel">
         
-            <asp:PlaceHolder runat="server" ID="PlaceHolderRefBlock"></asp:PlaceHolder>
-        
-        
-    </div>
+           <%--  <asp:PlaceHolder runat="server" ID="PlaceHolderRefBlock"></asp:PlaceHolder>    --%>  
+        <h2>Komu CreditCheck <span class="greenUnderline"> setří </span> čas a peníze ?</h2>
+        <div class="row">
+            <div class="col-xs-6 col-sm-2"><img src="~/Images/References/brand.png"></div>
+            <div class="col-xs-6 col-sm-2"><img src="~/Images/References/brand.png"></div>
+            <div class="col-xs-6 col-sm-2"><img src="~/Images/References/brand.png"></div>
+            <div class="col-xs-6 col-sm-2"><img src="~/Images/References/brand.png"></div>
+            <div class="col-xs-6 col-sm-2"><img src="~/Images/References/brand.png"></div>
+            <div class="col-xs-6 col-sm-2"><img src="~/Images/References/brand.png"></div>
+
+        </div>  </div>
 </div>
 </section>
 
